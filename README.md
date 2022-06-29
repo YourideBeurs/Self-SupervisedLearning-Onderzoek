@@ -1,1 +1,1 @@
-# Self-SupervisedLearning-Research
+# Self-SupervisedLearning-Onderzoek
