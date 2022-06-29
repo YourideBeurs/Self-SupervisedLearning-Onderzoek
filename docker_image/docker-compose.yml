@@ -1,0 +1,15 @@
+version: "3.9"
+services:
+  isala:
+    container_name: isala
+    restart: unless-stopped
+    build: .
+    ports:
+      - "8888:8888"
+    volumes:
+      - /home/student:/data
+    deploy:
+      resources:
+        reservations:
+          devices:
+          - capabilities: [gpu]
